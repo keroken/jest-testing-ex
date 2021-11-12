@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct with some pets 1`] = `
+<div
+  className="search"
+>
+  <Pet
+    animal="dog"
+    breed="Havanese"
+    id={1}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog25.jpg",
+        "http://pets-images.dev-apis.com/pets/dog26.jpg",
+        "http://pets-images.dev-apis.com/pets/dog27.jpg",
+        "http://pets-images.dev-apis.com/pets/dog28.jpg",
+        "http://pets-images.dev-apis.com/pets/dog29.jpg",
+      ]
+    }
+    location="Seattle, WA"
+    name="Luna"
+  />
+  <Pet
+    animal="dog"
+    breed="Goldendoodle"
+    id={2}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog31.jpg",
+        "http://pets-images.dev-apis.com/pets/dog30.jpg",
+        "http://pets-images.dev-apis.com/pets/dog32.jpg",
+        "http://pets-images.dev-apis.com/pets/dog33.jpg",
+      ]
+    }
+    location="Minneapolis, MN"
+    name="Bunnahabhain"
+  />
+  <Pet
+    animal="dog"
+    breed="Boxer"
+    id={3}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog34.jpg",
+      ]
+    }
+    location="Minneapolis, MN"
+    name="Olive"
+  />
+  <Pet
+    animal="dog"
+    breed="Wheaten Terrier"
+    id={4}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog37.jpg",
+        "http://pets-images.dev-apis.com/pets/dog38.jpg",
+        "http://pets-images.dev-apis.com/pets/dog39.jpg",
+      ]
+    }
+    location="Denver, CO"
+    name="Sudo"
+  />
+  <Pet
+    animal="dog"
+    breed="Wheaten Terrier"
+    id={5}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog35.jpg",
+        "http://pets-images.dev-apis.com/pets/dog36.jpg",
+      ]
+    }
+    location="Denver, CO"
+    name="Beam"
+  />
+  <Pet
+    animal="bird"
+    breed="Cockatoo"
+    id={6}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/bird2.jpg",
+      ]
+    }
+    location="Carol Stream, IL"
+    name="Gizela"
+  />
+  <Pet
+    animal="reptile"
+    breed="Horned Lizard"
+    id={7}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/reptile2.jpg",
+      ]
+    }
+    location="Bridgeport, CT"
+    name="Laughton"
+  />
+  <Pet
+    animal="dog"
+    breed="Shih Tzu"
+    id={8}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog0.jpg",
+      ]
+    }
+    location="Charlotte, NC"
+    name="Si"
+  />
+  <Pet
+    animal="rabbit"
+    breed="American"
+    id={9}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/rabbit3.jpg",
+      ]
+    }
+    location="Springfield, IL"
+    name="Lyda"
+  />
+  <Pet
+    animal="dog"
+    breed="Labrador"
+    id={10}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog1.jpg",
+      ]
+    }
+    location="Tucson, AZ"
+    name="Jackquelin"
+  />
+</div>
+`;
+
+exports[`snapshot with no pets 1`] = `
+<div
+  className="search"
+>
+  <h1>
+    No Pets Found
+  </h1>
+</div>
+`;
